@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/Anul 3/RL/tema1-public-main/switch.py", line 179, in <module>
+    main()
+  File "/mnt/d/Anul 3/RL/tema1-public-main/switch.py", line 156, in main
+    if ok_to_send(interface, i, vlan_id):
+  File "/mnt/d/Anul 3/RL/tema1-public-main/switch.py", line 71, in ok_to_send
+    vlan_in = ports[get_interface_name(in_interface)]
+KeyError: 'r-0'
